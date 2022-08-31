@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # ------------------------------------------------------------------------ #
 # Title: Assignment 08
 # Description: Working with classes
@@ -20,10 +14,6 @@ strFileName = 'products.txt'
 lstOfProductObjects = []
 user_choice = ""
 
-
-# In[2]:
-
-
 class Errors:
     def user_input():
         print("Something went wrong with the user input...")
@@ -31,10 +21,6 @@ class Errors:
         print("You must enter a number!")
     def too_many_characters():
         print("You entered too many characters!")
-
-
-# In[3]:
-
 
 class Product:
     """
@@ -70,10 +56,6 @@ class Product:
         
         #return updated list of rows
         return lstOfProductObjects
-
-
-# In[4]:
-
 
 # Processing  ------------------------------------------------------------- #
 class FileProcessor:
@@ -136,10 +118,6 @@ class FileProcessor:
         #user is alerted that their data has successfully been saved
         print("Your data has been saved!")
 
-
-# In[5]:
-
-
 # Presentation (Input/Output)  -------------------------------------------- #
 class IO:
     """
@@ -196,10 +174,6 @@ class IO:
         #return user input product name and product price
         return Product.product_name, Product.product_price
 
-
-# In[7]:
-
-
 # Main Body of Script  ---------------------------------------------------- #
 
 #load data from file into a list of product objects when script starts
@@ -242,16 +216,3 @@ while(True):
         #exit script
         print("Exit script!")
         break
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
