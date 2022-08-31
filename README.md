@@ -14,7 +14,7 @@ Foundations of Python
 
 ### Introduction
 
-In this assignment, I will review calling data from classes.
+In this assignment, I will review standard patterns of classes, creating object instances in classes, and calling this data from functions in other classes.
 
 ### Completing the Assignment: Reading and Editing the Pseudo-code
 
@@ -78,3 +78,18 @@ With the script working correctly in Jupyter Lab, I moved on to testing the scri
 
 ### Completing the Assignment: Testing the Script in Anaconda Prompt
 
+To test the script in Anaconda Prompt, I first changed the working directory to the directory where the script was saved. I called the Jupyter Lab .ipynb script using ipython command, then showed the data loaded from the products.txt file. I then added the product ice cream with the price 4, and the product milk with the price 3 (**Figure 9**).
+
+![image](https://user-images.githubusercontent.com/111031988/187572738-ede88ce1-e0cb-4afb-8e0c-e4fc5a9df96d.png)
+
+*Figure 9. Part 1/2 of testing the script in Anaconda Prompt.*
+
+I then displayed the current data, then saved the current data and exited the program (**Figure 10**).
+
+![image](https://user-images.githubusercontent.com/111031988/187572781-a164ac4e-cab7-42be-8faa-d70ad3889617.png)
+
+*Figure 10. Part 2/2 of testing the script in Anaconda Prompt.*
+
+### Conclusions
+
+In this assignment, I reviewed the standard design pattern of classes in coding languages. I also reviewed creating and calling data from object instances in classes.
